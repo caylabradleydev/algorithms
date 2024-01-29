@@ -1,0 +1,15 @@
+C:\Users\cayla\OneDrive\Documents\Algorithms\CSharp\foundations\obj\Debug\net8.0\foundations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cayla\OneDrive\Documents\Algorithms\CSharp\foundations\obj\Debug\net8.0\foundations.AssemblyInfoInputs.cache
+C:\Users\cayla\OneDrive\Documents\Algorithms\CSharp\foundations\obj\Debug\net8.0\foundations.AssemblyInfo.cs
+C:\Users\cayla\OneDrive\Documents\Algorithms\CSharp\foundations\obj\Debug\net8.0\foundations.csproj.CoreCompileInputs.cache
+C:\Users\cayla\OneDrive\Documents\Algorithms\CSharp\foundations\obj\Debug\net8.0\foundations.sourcelink.json
+C:\Users\cayla\OneDrive\Documents\Algorithms\CSharp\foundations\bin\Debug\net8.0\foundations.exe
+C:\Users\cayla\OneDrive\Documents\Algorithms\CSharp\foundations\bin\Debug\net8.0\foundations.deps.json
+C:\Users\cayla\OneDrive\Documents\Algorithms\CSharp\foundations\bin\Debug\net8.0\foundations.runtimeconfig.json
+C:\Users\cayla\OneDrive\Documents\Algorithms\CSharp\foundations\bin\Debug\net8.0\foundations.dll
+C:\Users\cayla\OneDrive\Documents\Algorithms\CSharp\foundations\bin\Debug\net8.0\foundations.pdb
+C:\Users\cayla\OneDrive\Documents\Algorithms\CSharp\foundations\obj\Debug\net8.0\foundations.dll
+C:\Users\cayla\OneDrive\Documents\Algorithms\CSharp\foundations\obj\Debug\net8.0\refint\foundations.dll
+C:\Users\cayla\OneDrive\Documents\Algorithms\CSharp\foundations\obj\Debug\net8.0\foundations.pdb
+C:\Users\cayla\OneDrive\Documents\Algorithms\CSharp\foundations\obj\Debug\net8.0\foundations.genruntimeconfig.cache
+C:\Users\cayla\OneDrive\Documents\Algorithms\CSharp\foundations\obj\Debug\net8.0\ref\foundations.dll
