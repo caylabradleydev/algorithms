@@ -5,4 +5,4 @@ console.log("Hello, World!"); //instructs the console to print the string "Hello
 
 // `.log()`: a method of the `console` object that can take one or more arguments and print them to the console
 
-// `("Hello, World!)`: The argument, in this case a String, passed to the `log()` method and printed to the console
+// `("Hello, World!"")`: The argument, in this case a String, passed to the `log()` method and printed to the console
