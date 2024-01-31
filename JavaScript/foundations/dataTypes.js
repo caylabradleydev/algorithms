@@ -16,6 +16,7 @@ console.log(typeof unnamed); //undefined
 
 let currentUser = null;
 console.log(currentUser); //null; null datatype can't be tested using the typeof operator
+
 //The null value represents the intentional absence of any object value. It is one of JavaScript's primitive values and is treated as falsy for boolean operations.
 
 const hugeInteger = BigInt(9007199254740991);
