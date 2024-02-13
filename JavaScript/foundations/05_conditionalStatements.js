@@ -35,3 +35,27 @@ if (birthYear <= 2000) {
 } else {
   century = 21;
 }
+
+//====SWITCH STATEMENTS====//
+//Switch Statement: evaluates an expression, matching the expression’s value against a series of case clauses, and executes statements after the first case clause with a matching value, until a break statement is encountered. The default clause of a switch statement will be jumped to if no case matches the expression’s value.
+const day = "monday";
+
+switch (day) {
+  case "monday": //day === "monday"
+    console.log("Cooking Lessons");
+    break;
+  case "tuesday": //day === "tuesday"
+    console.log("Bowling");
+    break;
+  case "wednesday": //day === "wednesday"
+    console.log("Starbucks");
+    break;
+  case "thursday": //day === "thursday"
+    console.log("Climbzone");
+    break;
+  case "friday": //day === "friday"
+    console.log("Kerry's House");
+    break;
+  default:
+    console.log("It's the weekend!");
+}
