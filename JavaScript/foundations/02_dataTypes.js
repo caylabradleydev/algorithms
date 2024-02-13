@@ -2,7 +2,9 @@
 //====DATATYPES====//
 //=================//
 
-//Data type refers to the type of data that a JavaScript variable can hold.
+//Data type refers to the type of data that a JavaScript variable can hold. Every value is either an object or a primitive
+
+//JavaScript has dynamic typing:  a compiler or an interpreter assigns a type to all the variables at run-time. The type of a variable is decided based on its value. Programs written using dynamic-typed languages are more flexible but will compile even if they contain errors.You can also reassign a different datatype to a variable without any errors.
 
 //====PRIMITIVES====//
 //In JavaScript, a primitive (primitive value, primitive data type) is data that is not an object and has no methods or properties. There are 7 primitive data types:
@@ -20,8 +22,8 @@ let isLoggedIn = false;
 console.log(typeof isLoggedIn); //boolean
 
 //A variable that has been declared but has not been assigned a value is of type undefined
-let unnamed;
-console.log(typeof unnamed); //undefined
+let unassigned;
+console.log(typeof unassigned); //undefined
 
 //The null value represents the intentional absence of any object value. It is one of JavaScript's primitive values and is treated as falsy for boolean operations.
 let currentUser = null;

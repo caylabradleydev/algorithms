@@ -1,5 +1,5 @@
 //=================//
-//====DATATYPES====//
+//====VARIABLES====//
 //=================//
 
 //Variable: a named container for holding a value
