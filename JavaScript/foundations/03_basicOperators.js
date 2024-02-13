@@ -144,5 +144,20 @@ console.log(5 <= 3);
 console.log(3 <= 3);
 // Expected output: true
 
+//====LOGICAL OPERATORS====//
+//Logical operators are typically used with Boolean (logical) values; when they are, they return a Boolean value. the && and || operators actually return the value of one of the specified operands, so if these operators are used with non-Boolean values, they may return a non-Boolean value
+const hasDriversLicense = true;
+const hasGoodVision = false;
+
+//Logical AND (&&): returns true if both operands are true; otherwise, returns false
+console.log(hasDriversLicense && hasGoodVision); //false
+
+//Logical OR (||): Returns true if either operand is true; if both are false, returns false
+console.log(hasDriversLicense || hasGoodVision); //true
+
+//Logical NOT (!): Returns false if its single operand that can be converted to true; otherwise, returns true.
+console.log(!hasGoodVision); //true
+console.log(!hasDriversLicense); //false
+
 //====OPERATOR PRECEDENCE====//
 //Operator precedence: determines how operators are parsed concerning each other. Operators with higher precedence become the operands of operators with lower precedence.
