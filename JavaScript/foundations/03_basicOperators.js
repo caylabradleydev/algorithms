@@ -5,6 +5,16 @@
 //Expression: a valid unit of code that resolves to a value
 //Operators work with values to create expression
 
+//The typeof operator: returns a string indicating the type of the operand's value.
+console.log(typeof 42);
+// Expected output: "number"
+
+console.log(typeof "blubber");
+// Expected output: "string"
+
+console.log(typeof true);
+// Expected output: "boolean"
+
 //====ASSIGNMENT OPERATORS====//
 //Assignment Operator: assigns a value to its left operand based on the value of its right operand
 const now = 2024;

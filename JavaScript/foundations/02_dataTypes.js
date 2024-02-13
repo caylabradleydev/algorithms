@@ -6,6 +6,26 @@
 
 //JavaScript has dynamic typing:  a compiler or an interpreter assigns a type to all the variables at run-time. The type of a variable is decided based on its value. Programs written using dynamic-typed languages are more flexible but will compile even if they contain errors.You can also reassign a different datatype to a variable without any errors.
 
+//The typeof operator: returns a string indicating the type of the operand's value.
+console.log(typeof 42);
+// Expected output: "number"
+
+console.log(typeof "blubber");
+// Expected output: "string"
+
+console.log(typeof true);
+// Expected output: "boolean"
+
+//Object.is(): a static method determines whether two values are the same value.
+console.log(Object.is("1", 1));
+// Expected output: false
+
+console.log(Object.is(NaN, NaN));
+// Expected output: true
+
+console.log(Object.is(-0, 0));
+// Expected output: false
+
 //====PRIMITIVES====//
 //In JavaScript, a primitive (primitive value, primitive data type) is data that is not an object and has no methods or properties. There are 7 primitive data types:
 
