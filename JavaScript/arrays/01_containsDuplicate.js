@@ -22,8 +22,8 @@
 //   return false
 // }
 
-//Solution 1 for best time complexity
-const constiansDuplicate1 = (nums) => {
+//Solution for best time complexity
+const constiansDuplicate = (nums) => {
   const numsHashmap = {};
 
   for (let i = 0; i < nums.length; i++) {
@@ -33,6 +33,3 @@ const constiansDuplicate1 = (nums) => {
 
   return false;
 };
-
-//Solution 2 for best space complexity
-const containsduplicates2 = (nums) => {};
