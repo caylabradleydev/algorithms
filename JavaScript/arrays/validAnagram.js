@@ -28,7 +28,7 @@
 //   for character in s
 //     charCount[character] + 1
 
-//   for character in t
+//   for character of t
 //     if character not in charCount return false
 //     charCount[character] - 1
 
