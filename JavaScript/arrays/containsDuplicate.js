@@ -23,7 +23,7 @@
 // }
 
 //Solution for best time complexity
-const constiansDuplicate = (nums) => {
+const contiansDuplicate = (nums) => {
   const numsHashmap = {};
 
   for (let i = 0; i < nums.length; i++) {
