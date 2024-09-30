@@ -33,12 +33,10 @@
 
 function runningSum(nums) {
   const result = new Array(nums.length);
-  let sum = 0;
-  for (let i = 0; i < nums.length; i++) {
-    sum += nums[i];
-    result[i] = sum;
+  result[0] = nums[0];
+  for (let i = 1; i < nums.length; i++) {
+    result[i] = nums[i] + result[i - 1];
   }
-
   return result;
 }
 
