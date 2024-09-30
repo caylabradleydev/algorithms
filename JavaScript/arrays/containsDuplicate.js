@@ -1,35 +1,25 @@
-//Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is discinct
+// Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 
-//Main Points
-//-Returning Boolean
-//-Do not have to track duplicates
+// Example 1:
 
-//Questions
-//-Can we assume elements are always numbers?
-//-Can we assume input is always array?
-//-Do we have to account for possible overload?
+// Input: nums= [1, 2, 3, 4]
+// Output: false
+// Explanation: There are no duplicates in the given array.
+// Example 2:
 
-// PseudoCode
-// function containsduplicates(nums){
-//   let hashmap = {}
+// Input: nums= [1, 2, 3, 1]
+// Output: true
+// Explanation: '1' is repeating.
 
-//   for element of nums
-//     if element in hashmap
-//       return true
-//     else
-//       add element to hashmap
-
-//   return false
-// }
-
-//Solution for best time complexity
-const contiansDuplicate = (nums) => {
-  const numsHashmap = {};
+function containsDuplicate(nums) {
+  const duplicateTracker = {};
 
   for (let i = 0; i < nums.length; i++) {
-    if (nums[i] in numsHashmap) return true;
-    else numsHashmap[nums[i]] = true;
+    if (nums[i] in duplicateTracker) return true;
+    else duplicateTracker[nums[i]] = true;
   }
-
   return false;
-};
+}
+
+console.log(containsDuplicate([1, 2, 3, 1]));
+console.log(containsDuplicate([1, 2, 3, 4]));
