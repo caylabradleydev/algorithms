@@ -4,14 +4,16 @@
  * @return {number[]}
  */
 var twoSum = function(nums, target) {
-        const differenceTracker = {};
+    const duplicateChecker = {};
+    let difference;
 
     for(let i = 0; i < nums.length; i++){
-        const difference = target - nums[i]
-    
-        if(difference in differenceTracker){
-            return [i, differenceTracker[difference]];
-        }
-        differenceTracker[nums[i]] = i
-    }
+        difference = target - nums[i];
+
+        if(difference in duplicateChecker) return [duplicateChecker[difference], i]
+        else
+            duplicateChecker[nums[i]] = i
+     
+
+    } 
 };
