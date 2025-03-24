@@ -13,9 +13,8 @@ var leftRightDifference = function(nums) {
 
     for(let j = 0; j<nums.length; j++){
         rightSum -= nums[j];
-        leftSum += nums[j-1] || 0;
-
         differenceArray[j] = Math.abs(leftSum - rightSum)
+        leftSum += nums[j]
     }
 
     return differenceArray;
