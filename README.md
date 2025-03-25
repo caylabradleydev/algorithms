@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1791-richest-customer-wealth](https://github.com/caylabradleydev/algorithms/tree/master/1791-richest-customer-wealth) |
 | [1833-find-the-highest-altitude](https://github.com/caylabradleydev/algorithms/tree/master/1833-find-the-highest-altitude) |
 | [2714-left-and-right-sum-differences](https://github.com/caylabradleydev/algorithms/tree/master/2714-left-and-right-sum-differences) |
+| [2737-row-with-maximum-ones](https://github.com/caylabradleydev/algorithms/tree/master/2737-row-with-maximum-ones) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -37,4 +38,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1677-matrix-diagonal-sum](https://github.com/caylabradleydev/algorithms/tree/master/1677-matrix-diagonal-sum) |
 | [1791-richest-customer-wealth](https://github.com/caylabradleydev/algorithms/tree/master/1791-richest-customer-wealth) |
+| [2737-row-with-maximum-ones](https://github.com/caylabradleydev/algorithms/tree/master/2737-row-with-maximum-ones) |
 <!---LeetCode Topics End-->
