@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/caylabradleydev/algorithms/tree/master/0020-valid-parentheses) |
 | [0242-valid-anagram](https://github.com/caylabradleydev/algorithms/tree/master/0242-valid-anagram) |
 ## Matrix
 |  |
@@ -39,4 +40,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1677-matrix-diagonal-sum](https://github.com/caylabradleydev/algorithms/tree/master/1677-matrix-diagonal-sum) |
 | [1791-richest-customer-wealth](https://github.com/caylabradleydev/algorithms/tree/master/1791-richest-customer-wealth) |
 | [2737-row-with-maximum-ones](https://github.com/caylabradleydev/algorithms/tree/master/2737-row-with-maximum-ones) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/caylabradleydev/algorithms/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
