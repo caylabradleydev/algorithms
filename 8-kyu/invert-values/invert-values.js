@@ -1,19 +1,14 @@
 function invert(array) {
-  //NOTES
+     //NOTES
   //given array of ints
   //returning new array with inverse elements [1, -2, 3, -4, 5] --> [-1, 2, -3, 4, -5]
   //do not mutate input array
   
   //SOLUTION
-  let output = []; //declare output array
-  
+  //declare output array 
   //iterate through input array
-  for(let i = 0; i<array.length; i++){
-    
-    //add inverse element to output array
-    output.push(-(array[i]))
-  }
+  //add inverse element to output array
+  //return output array
   
-  return output;   //return output array
-​
+  return array.map((num) => -num);  
 }
