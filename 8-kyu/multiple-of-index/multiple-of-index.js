@@ -7,12 +7,14 @@ function multipleOfIndex(array) {
   let multiples = []; //declare output array
   let current;
   
+  if(array[0] === 0) multiples.push(array[0])
+  
   //iterate through input array
-  for(let i = 0; i<array.length; i++){
+  for(let i = 1; i<array.length; i++){
     current = array[i];
     
     //determine if current element is multiple of current index
-    if((i === 0 & current === 0) || (current % i === 0)) {
+    if((current % i === 0)) {
       
       //if yes, push current element to output array  
       multiples.push(current)
