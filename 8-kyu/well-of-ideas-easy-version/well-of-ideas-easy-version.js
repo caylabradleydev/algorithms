@@ -1,5 +1,5 @@
 function well(x){
-  //NOTES
+    //NOTES
   //input: array of strings, "good" and "bad"
   //output: 
   //>>"Publish!" if 1-2 goods
@@ -16,13 +16,13 @@ function well(x){
     if(x[i] === 'good') goodCount++
   }
     
-  switch(goodCount){
-    case 0: 
+  switch(true){
+    case goodCount === 0: 
       return "Fail!"
-    case 1:
-    case 2:
+    case goodCount <= 2:
       return "Publish!"
     default:
       return "I smell a series!"
   }
+​
 }
