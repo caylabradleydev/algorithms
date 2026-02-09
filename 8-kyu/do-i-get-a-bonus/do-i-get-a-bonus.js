@@ -1,3 +1,3 @@
 function bonusTime(salary, bonus) {
-  return bonus ? `£${salary * 10}` : `£${salary}`
+ return `£${salary * (bonus ? 10 : 1)}`
 }
